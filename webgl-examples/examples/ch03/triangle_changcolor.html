@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Change color</title>
+</head>
+
+<body onload="main()">
+<canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+</canvas>
+
+<p>
+    <select id="menu">
+        <option > </option>
+        <option value="红">红色</option>
+        <option value="绿">绿色</option>
+        <option value="蓝">蓝色</option>
+    </select>
+</p>
+<p>按"R"or"r"或者鼠标左键 -> 红色</p>
+<p>按"G"or"g"或者鼠标中键 -> 绿色</p>
+<p>按"B"or"b"或者鼠标右键 -> 蓝色</p>
+<script src="../lib/webgl-utils.js"></script>
+<script src="../lib/webgl-debug.js"></script>
+<script src="../lib/cuon-utils.js"></script>
+<script src="triangle_changcolor.js"></script>
+</body>
+</html>
